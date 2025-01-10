@@ -9,6 +9,7 @@ ATest01Actor::ATest01Actor()
 
 void ATest01Actor::BeginPlay()
 {
+	Hp = 100;
 	UE_LOG(Test01, Log, TEXT("Hello World"));
 }
 
